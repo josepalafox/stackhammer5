@@ -1,11 +1,15 @@
 {
-  "metaVersion": "1.1.6",
-  "puppetVersion": "PUPPET_ENTERPRISE27",
+  "metaVersion": "1.1.7",
+  "accessKey": "Jose\u0027s AWS Account",
+  "puppetVersion": "PUPPET_ENTERPRISE20",
   "master": {
     "type": "C1_MEDIUM",
     "deployState": "RUNNING",
     "image": "ami-ae61ea9e",
-    "name": "master"
+    "publicKeys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQCPwsaxzMpbcJ+lll6zvwDZfy1sDkOFnIbjp7APvOTTDmw3e6/SX1h8u98hUpOHvKoeIWumu5Vdf06CnC3N3hwyBNX/FOz9L6qO4gFuaqqvgvu+S8IWnxN/AMRWJAtdcqPArffLiczqGY/3elOsui21Jn8ieXgIsZIO5SpNX4wE0w\u003d\u003d"
+    ],
+    "name": "puppetmaster"
   },
   "environments": [
     {
